@@ -1,0 +1,53 @@
+.contador-container {
+  text-align: center;
+  margin: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contador-title {
+  font-size: 24px;
+  color: #333;
+}
+
+.contador-value {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.contador-button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contador-button.incrementar {
+  background-color: #007bff;
+  color: white;
+}
+
+.contador-button.incrementar:hover {
+  background-color: #0056b3;
+}
+
+.contador-button.incrementar:active {
+  background-color: #003f7f;
+}
+
+.contador-button.decrementar {
+  background-color: #dc3545;
+  color: white;
+}
+
+.contador-button.decrementar:hover {
+  background-color: #c82333;
+}
+
+.contador-button.decrementar:active {
+  background-color: #bd2130;
+}
